@@ -10,6 +10,7 @@ const App = () => {
 
 
   const addTask=(text)=>{
+    console.log("Pujas project")
     setTasks([...tasks,{id:Date.now(),text,completed: false}])
   }
 
